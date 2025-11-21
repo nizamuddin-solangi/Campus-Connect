@@ -1,0 +1,101 @@
+{
+  "mainImage": {
+    "src": "/images/ach/college.png",
+    "alt": "College Building"
+  },
+  "mainsec": {
+    "src": "/images/ach/sec.png",
+    "alt": "College Building"
+  },
+  "mission": {
+    "title": "Our Mission",
+    "text": "Our mission is to provide high-quality education that nurtures intellectual curiosity, creativity, and leadership. We aim to create a dynamic learning environment where students are encouraged to think critically, embrace innovation, and pursue excellence in their chosen fields. We are committed to empowering our learners with practical skills, moral values, and a global perspective that prepares them to face real-world challenges with confidence and integrity. ",
+    "image": "/images/academic/5.jpg"
+  },
+  "vision": {
+    "title": "Our Vision",
+    "text": "Our vision is to establish ourselves as a center of academic and professional excellence, recognized globally for innovation, inclusivity, and impact. We aspire to produce graduates who are not only experts in their disciplines but also ethical leaders and responsible citizens. Through a commitment to research, technology, and lifelong learning, we aim to shape a future where knowledge transforms communities and education becomes a driving force for global progress and positive change.",
+    "image": "/images/academic/vision.jpeg"
+  },
+  "story": {
+    "title": "Our Story",
+    "image": "/images/academic/8.jpg",
+    "text": "Our college was founded with the vision to empower students with knowledge, skills, and values that prepare them for a bright future. Over the years, we have achieved excellence in academics, sports, and cultural activities. With a strong focus on holistic development, we continue to provide a platform where creativity, innovation, and leadership thrive. Our dedicated faculty, modern facilities."
+  },
+  "testimonials": [
+    {
+      "id": 1,
+      "author": "Nizamuddin",
+      "role": "Web Developer",
+      "image": "/images/nizam.png"
+    },
+    {
+      "id": 2,
+      "author": "Aiesh",
+      "role": "UI/UX Designer",
+      "image": "/images/aiesh.jpg"
+    },
+    {
+      "id": 3,
+      "author": "Usaid",
+      "role": "Content Writer",
+      "image": "/images/usaid.jpg"
+    },
+    {
+      "id": 4,
+      "author": "Syed Hamdan",
+      "role": "Analyzer",
+      "image": "/images/hamdan.jpg"
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1,
+      "src": "/images/ach/unnamed (1).png",
+      "title": "College Students Winning a Trophy",
+      "description": "In this image, college students are celebrating after winning a major trophy."
+    },
+    {
+      "id": 2,
+      "src": "/images/ach/unnamed.png",
+      "title": "College Students Winning a Cricket Event",
+      "description": "This picture shows college students celebrating their victory in a cricket event."
+    },
+    {
+      "id": 3,
+      "src": "/images/ach/unnamed (2).png",
+      "title": "College Head Receiving 'Best College of the Year' Trophy",
+      "description": "The head of the college is receiving the prestigious 'Best College of the Year' trophy."
+    }
+  ],
+  "annualEvents": [
+    {
+      "id": "1",
+      "title": "TechFest",
+      "image": "/images/academic/8.webp",
+      "date": "2025-03-15",
+      "description": "Coding marathon, project exhibitions, robotics championship."
+    },
+    {
+      "id": "2",
+      "title": "Cultural Day",
+      "image": "/images/culture/3.png",
+      "date": "2025-04-20",
+      "description": "Annual Day, Music Nights, Dance Competitions."
+    },
+    {
+      "id": "3",
+      "title": "Sports Meet",
+      "image": "/images/sports/6.png",
+      "date": "2025-09-10",
+      "description": "Inter-college Sports Meet, Blood Donation Drives, Alumni Meet."
+    },
+    {
+      "id": "4",
+      "title": "Workshop",
+      "image": "/images/department/3.jpeg",
+      "date": "2025-09-10",
+      "description": "Workshops conducted by departments for skill enhancement."
+    }
+  ]
+}

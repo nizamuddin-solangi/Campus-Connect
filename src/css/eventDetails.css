@@ -1,0 +1,154 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.event-details-container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+
+.event-info-card {
+  display: flex;
+  background: linear-gradient(145deg,#fff,#f0f0f0);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+  margin-bottom: 40px;
+}
+
+.event-img {
+  width: 45%;
+  object-fit: cover;
+  min-width: 200px;
+}
+
+.event-text {
+  padding: 25px;
+  flex: 1;
+}
+
+.event-text h2 {
+  color: #0b003d;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.event-date {
+  color: #ffb400;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.event-text p {
+  line-height: 1.6;
+  color: #333;
+}
+
+.registration-wrapper {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.registration-card {
+  background: #0b003d;
+  color: #fff;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+  flex: 1 1 400px;
+  min-width: 300px;
+}
+
+.registration-card h3 {
+  color: #fff;
+  margin-bottom: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.registration-card input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 16px;
+  border-radius: 6px;
+  border: none;
+  font-size: 15px;
+}
+
+.registration-card input:focus {
+  outline: none;
+  box-shadow: 0 0 6px #ffb400;
+}
+
+.registration-card button {
+  width: 100%;
+  padding: 14px;
+  background: white;
+  color: #0b003d;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 900;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.registration-card button:hover {
+  background: #fff;
+  color: #0b003d;
+}
+
+.success-msg {
+  background: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.registrations-list {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+  flex: 1 1 300px;
+  min-width: 280px;
+}
+
+.registrations-list h4 {
+  color: #0b003d;
+  margin-bottom: 12px;
+}
+
+.registrations-list ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.registrations-list li {
+  border-bottom: 1px solid #eee;
+  padding: 8px 0;
+}
+
+@media (max-width: 768px) {
+  .event-info-card {
+    flex-direction: column;
+  }
+  .event-img {
+    width: 100%;
+    height: 250px;
+  }
+  .registration-wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+.error-msg {
+  color: red;
+  font-size: 13px;
+  margin-bottom: 8px;
+  display: block;
+}

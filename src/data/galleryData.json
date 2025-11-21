@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "14 August Celebration",
+    "year": "2023-24",
+    "category": "Cultural",
+    "src": "/images/non-academic/14 august.png"
+  },
+  {
+    "id": 2,
+    "title": "Cricket Event",
+    "year": "2022-23",
+    "category": "Sports",
+    "src": "/images/sports/8.png"
+  },
+  {
+    "id": 3,
+    "title": "IT Exhibition",
+    "year": "2022-23",
+    "category": "Technical",
+    "src": "/images/academic/cience.jpeg"
+  },
+  {
+    "id": 4,
+    "title": "Library Tour",
+    "year": "2022-23",
+    "category": "Academic",
+    "src": "/images/academic/9.jpeg"
+  },
+  {
+    "id": 5,
+    "title": "Training Session",
+    "year": "2023-24",
+    "category": "Technical",
+    "src": "/images/academic/10.jpeg"
+  },
+  {
+    "id": 6,
+    "title": "Outdoor Concert",
+    "year": "2023-24",
+    "category": "Sports",
+    "src": "/images/sports/Gemini_Generated_Image_cij4gtcij4gtcij4.png"
+  },
+  {
+    "id": 7,
+    "title": "Picnic",
+    "year": "2023-24",
+    "category": "Cultural",
+    "src": "/images/non-academic/picnic.png"
+  },
+  {
+    "id": 12,
+    "title": "Expo",
+    "year": "2022-23",
+    "category": "Academic",
+    "src": "/images/academic/expo.png"
+  },
+  {
+    "id": 8,
+    "title": "Presentation",
+    "year": "2022-23",
+    "category": "Academic",
+    "src": "/images/academic/3.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Outdoor Concert",
+    "year": "2023-24",
+    "category": "Cultural",
+    "src": "/images/academic/6.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Gymnasium",
+    "year": "2023-24",
+    "category": "Sports",
+    "src": "/images/sports/Gemini_Generated_Image_lk8lrhlk8lrhlk8l.png"
+  },
+  {
+    "id": 11,
+    "title": "Exhibition",
+    "year": "2022-23",
+    "category": "Technical",
+    "src": "/images/academic/Gemini_Generated_Image_os52apos52apos52.png"
+  }
+]

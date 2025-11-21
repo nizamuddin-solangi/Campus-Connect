@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "IT-Vision 2025",
+    "date": "October 11, 2025",
+    "description": "Join us for IT-Vision 2025, Pakistan's Biggest Tech and Career Exhibition. Where Innovation meets oppurtunity.",
+    "link": "/events/techfest-2025",
+    "image": "/images/academic/8.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Literature Festival",
+    "date": "October 24, 2025",
+    "description": "A two-day festival bringing together renowned writers, poets, artists, and intellectuals, alongside sessions with celebrities.",
+    "link": "/events/cultural-week-2025",
+    "image": "/images/literature.png"
+  },
+    {
+    "id": 3,
+    "title": "Sports Festival",
+    "date": "November 8, 2025",
+    "description": "A week-long event featuring various sports competitions, promoting physical fitness and team spirit among students.",
+    "link": "/events/cultural-week-2025",
+    "image": "/images/sports/2.png"
+  },
+  {
+    "id": 4,
+    "title": "Cracking Clerkships",
+    "date": "November 18, 2025",
+    "description": "A webinar hosted by LUMS, focusing on the application process for judicial clerkships in Pakistan.",
+    "link": "/events/techfest-2025",
+    "image": "/images/cc.png"
+  },
+  {
+    "id": 5,
+    "title": "Open Mic",
+    "date": "November 28, 2025",
+    "description": "An event providing a platform for students to showcase their talents in music, poetry, and other performing arts.",
+    "link": "/events/techfest-2025",
+    "image": "/images/mic.png"
+  },
+  {
+    "id": 6,
+    "title": "TechFest 2025",
+    "date": "December 4, 2025",
+    "description": "Annual tech festival with coding competitions, robotics contests, and AI workshops.",
+    "link": "/events/techfest-2025",
+    "image": "/images/academic/3.jpg"
+  }
+  
+
+]

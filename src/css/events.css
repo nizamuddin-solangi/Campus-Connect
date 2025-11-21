@@ -1,0 +1,176 @@
+.event-header {
+  position: relative;
+  color: white;
+  font-size: 60px;
+  font-weight: 600;
+  padding: 40px 0;
+  text-align: center;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+.event-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #0b003d;
+  z-index: -1;
+}
+
+.row.g-4 {
+  align-items: stretch;
+}
+
+.row.g-4 > [class*="col-"] {
+  display: flex;
+}
+
+.event-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+  background: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.18);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0b003d;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.45;
+  margin-bottom: 12px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.badge {
+  align-self: flex-start;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+.event-tabs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.event-tab {
+  padding: 6px 12px;
+  border-radius: 15px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  background-color: #e0e0e0;
+  color: #0b003d;
+  transition: all 0.3s ease;
+}
+
+.event-tab:hover {
+  background-color: #0b003d;
+  color: white;
+  opacity: 0.8;
+  transform: translateY(-2px);
+}
+
+.event-tab.active {
+  background-color: #0b003d;
+  color: white;
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .card-img-top {
+    height: 180px;
+  }
+  .event-header {
+    font-size: 48px;
+    padding: 30px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-img-top {
+    height: 150px;
+  }
+  .event-header {
+    font-size: 36px;
+    padding: 24px 0;  
+  }
+  .card-text {
+    -webkit-line-clamp: 3;
+  }
+}
+
+.event-img-wrapper {
+  position: relative;
+}
+.event-img-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.event-img-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+/* Always visible, clear, elegant heart icon */
+.heart-icon::before {
+  content: "♥";
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  font-size: 42px;
+  color: rgba(255, 255, 255, 0.95);
+  text-shadow:
+    0 0 8px rgba(0, 0, 0, 0.8),
+    0 0 15px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: transform 0.25s ease, color 0.25s ease, text-shadow 0.25s ease;
+  transform: scale(1.15);
+}
+
+/* Active/bookmarked state (bright red with glow) */
+.heart-icon.active::before {
+  color: #ff1a1a;
+  text-shadow:
+    0 0 15px rgba(255, 26, 26, 0.9),
+    0 0 30px rgba(255, 26, 26, 0.7);
+  transform: scale(1.15);
+}

@@ -1,0 +1,6 @@
+{
+  "message": "Welcome! Please tell us about Yourself!",
+  "options": ["Student", "Staff", "Guest"],
+  "placeholder": "Enter your name",
+  "buttonText": "Continue"
+}

@@ -1,0 +1,11 @@
+{
+  "image": "/images/banner.png",
+  "alt": "Campus Event",
+  "title": "Welcome to",
+  "highlight": "CampusConnect",
+  "subtitle": "Your Gateway to Events, Activities, and Campus Life",
+  "button": {
+    "text": "🚀 Explore Events",
+    "link": "/events"
+  }
+}

@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  font-family: Arial, sans-serif;
+  padding: 0 30px;
+  height: 80px;
+  position: relative;
+  z-index: 1000;
+}
+
+.app-logo-img {
+  height: 150px;
+  width: auto;
+  display: block;
+}
+
+.app-nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  transition: max-height 0.3s ease;
+}
+
+.app-nav a,
+.app-dropbtn {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px 10px;
+  line-height: 1.2;
+  display: inline-flex;
+  align-items: center;
+}
+
+.app-dropdown {
+  position: relative;
+}
+
+.app-dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  min-width: 180px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  border-radius: 6px;
+  z-index: 1000;
+}
+
+.app-dropdown-content a {
+  display: block;
+  padding: 10px 14px;
+  color: black;
+}
+
+.app-dropdown-content a:hover {
+  background: #f6f6f6;
+  color: #0077cc;
+}
+
+.app-dropdown:hover .app-dropdown-content {
+  display: block;
+}
+
+.app-subdropdown {
+  position: relative;
+}
+
+.app-subdropdown > a {
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-subdropdown-content {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background: #fff;
+  min-width: 180px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  border-radius: 6px;
+  z-index: 1000;
+}
+
+.app-subdropdown-content a {
+  display: block;
+  padding: 10px 14px;
+  color: black;
+}
+
+.app-subdropdown-content a:hover {
+  background: #f6f6f6;
+  color: #0077cc;
+}
+
+.app-subdropdown:hover .app-subdropdown-content {
+  display: block;
+}
+
+.hamburger {
+  display: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: black;
+}
+
+@media (max-width: 992px) {
+  .hamburger {
+    display: block;
+  }
+
+  .app-nav {
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background: #fff;
+    border-top: 1px solid #ddd;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease;
+  }
+
+  .app-nav.open {
+    max-height: 500px; 
+  }
+
+  .app-nav a,
+  .app-dropbtn {
+    padding: 12px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .app-dropdown-content {
+    position: static;
+    display: none;
+    box-shadow: none;
+    border-radius: 0;
+    width: 100%;
+  }
+
+  .app-dropdown.open .app-dropdown-content {
+    display: block;
+  }
+
+  .app-dropdown-content a {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+  }
+
+  .app-subdropdown-content {
+    position: static;
+    display: none;
+    box-shadow: none;
+    border-radius: 0;
+    width: 100%;
+  }
+
+  .app-subdropdown.open .app-subdropdown-content {
+    display: block;
+  }
+}
+
+.app-nav a:hover,
+.app-dropbtn:hover,
+.app-dropdown-content a:hover,
+.app-subdropdown-content a:hover {
+  background: none !important;
+  color: inherit !important;
+  text-decoration: none !important;
+}
+.app-dropbtn {
+  border: none !important;
+  outline: none !important;
+}
+
+.app-dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  min-width: 180px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  border-radius: 6px;
+  z-index: 1000;
+}
+
+.app-dropdown.open .app-dropdown-content {
+  display: block; 
+}
+
+@media (max-width: 992px) {
+  .app-dropdown-content {
+    position: static;
+    width: 100%;
+    box-shadow: none;
+    border-radius: 0;
+    display: none;
+  }
+
+  .app-dropdown.open .app-dropdown-content {
+    display: block; 
+  }
+
+  .app-dropdown-content a {
+    text-align: center;
+    padding: 12px 0;
+    border-top: 1px solid #ddd;
+  }
+}
+
+.app-dropdown-content {
+  left: 0 !important;          
+  right: auto !important;      
+  max-width: 250px;            
+  overflow-x: hidden;          
+}
+
+.app-dropdown-content a {
+  white-space: normal;         
+}
+
+body {
+  overflow-x: hidden;
+}

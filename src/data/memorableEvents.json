@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Annual Sports Day 2024",
+    "description": "A fun-filled day with competitions and prizes.",
+    "image": "/images/sports/4.png"
+  },
+  {
+    "id": 2,
+    "title": "Cultural Night 2024",
+    "description": "Showcasing student talent through performances.",
+    "image": "/images/culture/2.png"
+  },
+  {
+    "id": 3,
+    "title": "Tech Exhibition 2024",
+    "description": "Students presented innovative projects.",
+    "image": "/images/academic/8.webp"
+  },
+  {
+    "id": 4,
+    "title": "Community Service Week",
+    "description": "Volunteering activities and awareness drives.",
+    "image": "/images/service.png"
+  },
+  {
+    "id": 5,
+    "title": "Alumni Meet 2024",
+    "description": "Connecting past and present students.",
+    "image": "/images/alumni.png"
+  },
+  {
+    "id": 6,
+    "title": "Science Fair 2024",
+    "description": "Innovative science projects by students.",
+    "image": "/images/department/1.jpeg"
+  }
+]

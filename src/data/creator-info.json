@@ -1,0 +1,10 @@
+{
+  "title": "Get in Touch",
+  "description": "Feel free to reach out to the creator:",
+  "contacts": [
+    { "type": "Name", "value": "Nizamuddin Solangi", "icon": "👤" },
+    { "type": "Email", "value": "nizam@example.com", "icon": "📧" },
+    { "type": "Phone", "value": "+92 300 1234567", "icon": "📞" },
+    { "type": "Location", "value": "Karachi, Pakistan", "icon": "📍" }
+  ]
+}

@@ -516,3 +516,93 @@ button:hover {
   margin-top: 20px;
   color: #666;
 }
+/* --------------------------------------------------
+   🔥 GLOBAL RESPONSIVE FIXES (DO NOT MODIFY EXISTING CODE)
+-------------------------------------------------- */
+
+/* Ensure grid never overflows */
+.gallery-grid {
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-items: center;
+}
+
+/* Ensure card scales nicely */
+.gallery-card {
+  width: 100%;
+  max-width: 300px;
+}
+
+/* Lightbox responsive fix */
+.lightbox-content img {
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+}
+
+/* Title in lightbox stays inside */
+.lightbox-title {
+  padding: 5px 10px;
+  word-break: break-word;
+}
+
+/* Filter row responsiveness */
+.filters {
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+/* Make category buttons wrap cleanly */
+.category-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+/* Make filter row never overflow */
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  justify-content: center;
+}
+
+/* Search bar responsive */
+.search-input {
+  max-width: 300px;
+  width: 100%;
+}
+
+/* Dropdown resize fix */
+.year-select {
+  max-width: 180px;
+  width: 100%;
+}
+
+/* -------------------------------------------
+        📱 EXTRA SMALL SCREENS (below 420px)
+------------------------------------------- */
+@media (max-width: 420px) {
+  .gallery-header {
+    font-size: 32px;
+  }
+
+  .gallery-img {
+    height: 130px !important;
+  }
+
+  .tab-button {
+    font-size: 0.75rem;
+    padding: 5px 12px;
+  }
+
+  .search-input {
+    max-width: 100%;
+  }
+
+  .gallery-card {
+    max-width: 260px;
+  }
+}

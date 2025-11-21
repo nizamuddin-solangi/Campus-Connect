@@ -11,8 +11,7 @@ import Contact from "./components/Contact";
 import Gallery from "./components/Gallery";
 import About from "./components/About";
 import Feedback from "./components/Feedback";
-import EventCalendar from "./components/EventCalendar";
-
+import EventCalendar from "./components/EventCalendar";gi
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 

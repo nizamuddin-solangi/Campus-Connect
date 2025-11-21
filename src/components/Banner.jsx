@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import bannerData from "../data/banner.json";
@@ -37,9 +38,10 @@ function Banner() {
           <span>{bannerData.highlight}</span>
         </h1>
         <p>{bannerData.subtitle}</p>
-        <a href={bannerData.button.link} className="banner-btn">
-          {bannerData.button.text}
-        </a>
+        <Link to={bannerData.button.link} className="banner-btn">
+        {bannerData.button.text}
+        </Link>
+
       </div>
     </section>
   );
